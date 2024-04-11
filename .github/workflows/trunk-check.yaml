@@ -3,6 +3,7 @@ run-name: ${{ fromJSON(inputs.payload).checkWorkflowRunName }}
 on:
   workflow_dispatch:
     inputs:
+      # trunk-ignore(checkov/CKV_GHA_7)
       payload:
         description: For invocation by Trunk Check
         required: false
