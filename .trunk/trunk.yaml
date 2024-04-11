@@ -17,7 +17,7 @@ runtimes:
     - python@3.10.8
 # This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
 lint:
-  definitions: 
+  definitions:
     - name: bandit
       direct_configs: [bandit.yaml]
       commands:
@@ -28,7 +28,7 @@ lint:
     - bandit@1.7.8
     - checkov@3.2.60
     - git-diff-check
-    - markdownlint@0.33.0
+    - markdownlint@0.39.0
     - osv-scanner@1.7.0
     - prettier@3.2.5
     - ruff@0.3.5
